@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/homeJogadorFragment">
+
+    <fragment
+        android:id="@+id/homeJogadorFragment"
+        android:name="com.douglasrondini.arenacacerense.ui.fragments.home.HomeJogadorFragment"
+        android:label="fragment_home_jogador"
+        tools:layout="@layout/fragment_home_jogador" >
+        <action
+            android:id="@+id/action_homeJogadorFragment_to_agendarCampoFragment"
+            app:destination="@id/agendarCampoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reservasFragment"
+        android:name="com.douglasrondini.arenacacerense.ui.fragments.reservas.ReservasFragment"
+        android:label="fragment_reservas"
+        tools:layout="@layout/fragment_reservas" />
+    <fragment
+        android:id="@+id/minhaArenaFragment"
+        android:name="com.douglasrondini.arenacacerense.ui.fragments.arena.MinhaArenaFragment"
+        android:label="fragment_minha_arena"
+        tools:layout="@layout/fragment_minha_arena" />
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.douglasrondini.arenacacerense.ui.fragments.perfil.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/agendarCampoFragment"
+        android:name="com.douglasrondini.arenacacerense.ui.fragments.home.AgendarCampoFragment"
+        android:label="fragment_agendar_campo"
+        tools:layout="@layout/fragment_agendar_campo" />
+</navigation>

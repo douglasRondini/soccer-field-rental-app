@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardSeg"
+    android:layout_width="64dp"
+    android:layout_height="94dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg_pill_default"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fev"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/diaSemana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seg"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
